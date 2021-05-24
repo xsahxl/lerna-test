@@ -1,0 +1,11 @@
+{
+  "name": "lerna-test",
+  "private": true,
+  "scripts": {
+    "test": "lerna bootstrap --npm-client=yarn",
+    "clean": "rm -rf packages/*/node_modules"
+  },
+  "devDependencies": {
+    "lerna": "2.0.0-beta.38"
+  }
+}
